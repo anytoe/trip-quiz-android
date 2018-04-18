@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="errorcode_invalidemailusername">You must use your username or email address</string>
+    <string name="errorcode_invalidusername">The username must have a length of 6 to 12 characters and must not contain any special characters. Usernames are not case sensitive</string>
+    <string name="errorcode_invalidpassword">The password must have a length of at least 6 characters, one of it must be upper case</string>
+    <string name="errorcode_invalidemail">The email address is invalid</string>
+    <string name="errorcode_duplicateusername">The username already exists in our system, please pick a different one</string>
+    <string name="errorcode_duplicateemail">The email address already exists in our system, please pick a different one</string>
+    <string name="errorcode_userrejected">Your user account has been deactivated</string>
+    <string name="errorcode_identifierpasswordmismatch">Your username or email address does not match the given password</string>
+    
+    <string name="error_fieldrequired">This field is required</string>
+    
+    <string name="password_regex">^(?=.*[A-Z])(.{6,12})$</string>
+    <string name="username_regex">^[a-zA-Z]{4,10}$</string>
+
+</resources>

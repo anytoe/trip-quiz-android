@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/summary_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_light"
+    android:padding="5dp" >
+
+    <!-- <ProgressBar -->
+    <!-- android:id="@+id/summary_userprogressbar" -->
+    <!-- style="?android:attr/progressBarStyleHorizontal" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center" /> -->
+    <!-- </LinearLayout> -->
+
+    <LinearLayout
+        android:id="@+id/icon_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/summary_userprogress"
+            style="@style/TinyText"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/circle_bg"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ranking_button"
+            style="@style/TinyText"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/circle_bg"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:visibility="visible" />
+        <!-- android:background="@drawable/ranking_laurels" -->
+
+        <ImageView
+            android:id="@+id/listitem_group"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/circle_bg"
+            android:padding="10dp"
+            android:src="@drawable/overview_group" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/listitem_single"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/circle_bg"
+            android:padding="10dp"
+            android:src="@drawable/overview_single" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/listitem_lock"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/circle_bg"
+            android:padding="10dp"
+            android:src="@drawable/overview_lock" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/delete_button"
+            style="@style/TinyText"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/circle_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/summary_delete"
+            android:textStyle="bold" />
+        <!-- android:background="@drawable/summary_delete" -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/summary_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/content_bg_topline"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/summary_challengename"
+            style="@style/HeaderText"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/summary_challengedescription"
+            style="@style/DefaultText"
+            android:gravity="left" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/summary_locationlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/icon_bar"
+        android:layout_below="@id/summary_title_container"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/transparent"
+        android:divider="@color/transparent"
+        android:dividerHeight="2dp"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@android:drawable/list_selector_background" />
+
+</RelativeLayout>

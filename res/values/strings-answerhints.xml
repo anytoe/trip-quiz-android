@@ -1,0 +1,13 @@
+		<resources>
+
+    <string name="answerhints_date">The solution is a date like \'{0}\'</string>
+    <string name="answerhints_datemonthyear">The solution is a month and a year like \'{0}\'</string>
+    <string name="answerhints_datedaymonth">The solution is a day and a month like \'{0}\'</string>
+    <string name="answerhints_natural">The solution is a number like \'42\'"</string>
+    <string name="answerhints_real">The solution is a decimal number like \'3.1752\'</string>
+    <string name="answerhints_text1">The solution is a single word like \'bouquet\'</string>
+    <string name="answerhints_text2">The solution are two words like \'New York\'</string>
+    <string name="answerhints_text3">The solution consists of three words like \'Osama bin Laden\'</string>
+    <string name="answerhints_text4">The solution consists of four words like \'Once upon a time\'</string>
+    
+</resources>

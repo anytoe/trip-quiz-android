@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="login_emailusername">Username / Email</string>
+    <string name="login_password">Password</string>
+
+    <string name="register_email">Email (private)</string>
+    <string name="register_username">Username (public)</string>
+    <string name="register_password">Password</string>
+    
+    <string name="login_signin">Sign in</string>
+    <string name="register_register">Register</string>
+    <string name="login_progress_signingin">Signing in&#8230;</string>
+    <string name="register_progress_registering">Registering&#8230;</string>
+    
+    <string name="login_forgot_password">Recover lost password</string>
+    
+<!--     <string name="error_invalid_email">This email address is invalid</string> -->
+<!--     <string name="error_invalid_username">The username must have at least a length of 4</string> -->
+<!--     <string name="error_invalid_password">This password is too short, it must have a length of 6, one capital letter and one digit</string> -->
+<!--     <string name="error_incorrect_password">This password is incorrect</string> -->
+<!--     <string name="error_field_required">This field is required</string> -->
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+
+    <integer name="imagewidth_pixel">50</integer>
+    <integer name="imagewidth_pixel_large">800</integer>
+    <integer name="checkin_radius">100</integer>
+
+</resources>

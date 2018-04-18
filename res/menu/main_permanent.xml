@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/navigationbar_refresh"
+        android:showAsAction="always"
+        android:title="Refresh"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_enable_notification"
+        android:icon="@drawable/navigationbar_bell_enabled"
+        android:showAsAction="always"
+        android:title="Enable/Disable notification service"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_warninggpswifi"
+        android:icon="@drawable/navigationbar_warning"
+        android:showAsAction="always"
+        android:title="Show accuracy of GPS positions"
+        android:visible="true"/>
+
+</menu>

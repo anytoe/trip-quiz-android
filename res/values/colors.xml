@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Header -->
+    <color name="activity_bgcolor">@color/grey_light</color>
+    <color name="tab_inactive">#EEE</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="yellow">#f8ff42</color>
+    <color name="grey_dark">#363636</color>
+    <color name="grey_medium">#6D6D6D</color>
+    <color name="grey_light">#DEDEDE</color>
+    <color name="blue_light">#0099cc</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="blue_light2">#ecf0f1</color>
+    <color name="red_logo">#eb4a33</color>
+    <color name="red_logo_darker">#EB3333</color>
+    <color name="green">#47B747</color>
+    <color name="transparent_medium">#BBFFFFFF</color>
+    <color name="transparent_dark">#CCFFFFFF</color>
+
+</resources>

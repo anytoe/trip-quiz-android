@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="statusbar_chooseplace">Pick a location</string>
+    <string name="statusbar_severalplaces">Several locations</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_done">You are done!</string>
+    <string name="challenges_summary_ranking">Ranking</string>
+    <string name="challenges_user_nolead">No-one has made progress so far</string>
+    <string name="challenges_user_youlead">You are ahead, well done!</string>
+    <string name="challenges_user_leader">leads with</string>
+    <string name="challenges_user_otherwon">finished this challenge first</string>
+    <string name="challenges_user_youwon">You finished this challenge first</string>
+    <string name="challenges_user_otherwon_dialog">You\'ve finished! Unfortunately {0} was first. You made the {1}. place</string>
+    <string name="challenges_user_youwon_dialog">Congratulations, you\'ve rocked the place and won the Challenge \'{0}\'!</string>
+    <string name="challenges_user_single_dialog">Congratulations, you\'ve finished the Challenge \'{0}\'!</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="toastmessages_actionstarted">Let\'s see if this works</string>
+    <string name="toastmessages_actionprogress">Yes! You made progress</string>
+    <string name="toastmessages_locationfinished">You finished this location!</string>
+    <string name="toastmessages_actionfailure">That did not work! Try again</string>
+    <string name="popupmessage_gpsdisabled">GPS disabled</string>
+    <string name="popupmessage_gpsdisabled_explanation">In order to be able to answer questions you have to enable GPS and check in. After your check in, you will be given some time to answer all questions without the need to check in again.</string>
+    <string name="popupmessage_colourcode">GPS validation</string>
+    <string name="popupmessage_colourcode_explanation">We are checking your coordinates to make sure that your position is correct. If you see the green bar, your position is validated and you can check in to nearby locations</string>
+    <string name="actionbar_servicerunning">TripQuiz Alert</string>
+    <string name="actionbar_servicerunning_exlanation">TripQuiz Alert notifies you when you are close to a location</string>
+    <string name="actionbar_locationnearby_title">Location nearby!</string>
+    <string name="actionbar_locationnearby_text">You can check in at:</string>
+    <string name="actionbar_severallocationsnearby_title">Locations nearby!</string>
+    <string name="actionbar_severallocationsnearby_text">You can check in at several locations</string>
+
+</resources>

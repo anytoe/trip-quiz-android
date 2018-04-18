@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/challenge_new_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey_light"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/content_bg_topline"
+        android:gravity="center"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/challenge_new_searchtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/challenge_new_searchbutton"
+            android:background="@null"
+            android:inputType="text"
+            android:text="Enter search term"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/grey_light" />
+
+        <ImageButton
+            android:id="@+id/challenge_new_searchbutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:src="@drawable/challenges_new_search" />
+
+        <ProgressBar
+            android:id="@+id/challenge_new_loadimage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:divider="@color/transparent"
+        android:dividerHeight="3dp"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@android:drawable/list_selector_background" />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/main_new_firsttime"
+        android:textSize="20sp" />
+
+</LinearLayout>
